@@ -1,0 +1,198 @@
+@media (min-width : 768px ) and (max-width : 991px){
+
+    .banner-content h1 {
+        font-size: 50px;
+    }
+
+    #flex-root{
+        padding-right: 0px;
+        display: flow-root;
+        margin-left: auto;
+    }
+
+    .navbar-brand img{
+        width: 50%;
+    }
+
+    .navbar-collapse ul li{
+        text-align: center;
+    }
+
+    .banner-content {
+        padding-top: 0px; 
+        padding-left: 0px; 
+    }
+
+    .offer-img img {
+        margin-left: 240px;
+        height: 200px;
+    }
+
+    .side-card-img img{
+        width: 60%;
+
+    }
+
+    .side-card-img{
+        padding-left: 100px;
+    }
+
+}
+
+
+
+
+@media (min-width : 576px ) and (max-width : 767px){
+
+    #banner-shoe-down{
+        order: 2;
+    }
+
+    #side-card-down{
+        order: 2;
+    }
+
+    .banner-content h1 {
+        font-size: 40px;
+    }
+
+    #flex-root{
+        padding-right: 0px;
+        display: flow-root;
+        margin-left: auto;
+    }
+
+    .navbar-brand img{
+        width: 50%;
+    }
+
+    .navbar-collapse ul li{
+        text-align: center;
+    }
+
+    .banner-content {
+        padding-top: 50px; 
+        padding-left: 0px; 
+    }
+
+    .offer-img img {
+        margin-left: 150px;
+        height: 200px;
+    }
+
+    .shopping-svg {
+        padding-bottom: 100px;
+    }
+
+    .side-card-img img{
+        width: 40%;
+    }
+
+    .side-card-img{
+        padding-left: 150px;
+    }
+
+    /* Testimonial */
+    .testimonial-area{
+        padding: 15px 0;
+      }
+      .single-testimonial{
+          padding-left: 0px;
+          padding-top: 75px;
+      }
+      .img-area{
+          left: 50%;
+          margin-left: -75px;
+          top: 75px;
+      }
+      .testi-text{
+          padding: 80px 25px 45px; 
+      }
+      .testi-text h4{
+          font-size: 20px;
+          margin-bottom: 20px;
+      }
+      .testi-text p{
+          font-size: 16px;
+      }
+
+}
+
+
+
+
+@media (max-width : 575px){
+
+    #banner-shoe-down{
+        order: 2;
+    }
+
+    #side-card-down{
+        order: 2;
+    }
+
+    .banner-content h1 {
+        font-size: 30px;
+    }
+
+    #flex-root{
+        padding-right: 0px;
+        display: flow-root;
+        margin-left: auto;
+    }
+
+    .navbar-brand img{
+        width: 50%;
+    }
+
+    .navbar-collapse ul li{
+        text-align: center;
+    }
+
+    .banner-content {
+        padding-top: 50px; 
+        padding-left: 0px; 
+    }
+
+    .offer-img img {
+        margin-left: 30%;
+        max-height: 200px;
+    }
+
+    .shopping-svg {
+        padding-bottom: 60px;
+    }
+
+    .side-card-img img{
+        width: 40%;
+    }
+
+    .side-card-img{
+        padding-left: 100px;
+    }
+
+    /* Testimonial */
+    .testimonial-area{
+        padding: 15px 0;
+      }
+      .single-testimonial{
+          padding-left: 0px;
+          padding-top: 75px;
+      }
+      .img-area{
+          left: 50%;
+          margin-left: -75px;
+          top: 75px;
+      }
+      .testi-text{
+          padding: 80px 25px 45px; 
+      }
+      .testi-text h4{
+          font-size: 20px;
+          margin-bottom: 20px;
+      }
+      .testi-text p{
+          font-size: 16px;
+      }
+    
+}

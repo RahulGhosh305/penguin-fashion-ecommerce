@@ -25,57 +25,60 @@
 
     <!--* Custom Css file *-->
     <link rel="stylesheet" href="css/style.css">
+
+    <!--* Responsive css file*-->
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
     <!--* Navbar  -->
     <section>
         <div class="bg-light">
-            <div class="container">
-                <div class="row">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        <div class="container-fluid">
-                            <a class="navbar-brand" href="#"><img src="./photos/Logo.png" alt="logo" class="img-fluid"></a>
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                                    <li class="nav-item">
-                                        <a class="nav-link fw-bold active" aria-current="page" href="#">HOME</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link fw-bold" href="#">ABOUT</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link fw-bold" href="#">PRODUCT</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link fw-bold" href="#">CONTACT US</a>
-                                    </li>
-                                </ul>
-                            </div>
+            <div class="row">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container" id="flex-root">
+                        <div class="d-flex">
+                        <a class="navbar-brand" href="#"><img src="./photos/Logo.png" alt="logo" class="img-fluid"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
                         </div>
-                      </nav>
-                </div>
-            </div>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link fw-bold active" aria-current="page" href="#">HOME</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-bold" href="#">ABOUT</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-bold" href="#">PRODUCT</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-bold" href="#">CONTACT US</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>          
         </div>
 
         <!--* Banner section *-->
         <div class="container">
             <div class="row pt-5">
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                    <div>
-                        <img src="./photos/banner-shoe.png" alt="" class="img-fluid">
+                    <div class="col-lg-6 col-md-6 col-sm-12" id="banner-shoe-down">
+                        <div>
+                            <img src="./photos/banner-shoe.png" alt="" class="img-fluid">
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                    <div class="banner-content">
-                        <h1><span>BLACK FRIDAY</span> <br> HURRY UP!</h1>
-                        <P class="lead">DESIGNER SHOE WAREHOUSE: THE LATEST IN DESIGNER SHOES, BOOTS, HANDBAGS AND MORE</P>
-
-                        <button class="btn btn-warning fw-bold mt-3"><span><i class="fa fa-shopping-cart mx-2" aria-hidden="true"></i></span> BUY NOW</button>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="banner-content">
+                            <h1><span>BLACK FRIDAY</span> <br> HURRY UP!</h1>
+                            <P class="lead">DESIGNER SHOE WAREHOUSE: THE LATEST IN DESIGNER SHOES, BOOTS, HANDBAGS AND MORE</P>
+    
+                            <button class="btn btn-warning fw-bold mt-3"><span><i class="fa fa-shopping-cart mx-2" aria-hidden="true"></i></span> BUY NOW</button>
+                        </div>
                     </div>
-                </div>
             </div>
         </div>
     </section>
@@ -83,65 +86,71 @@
 
     <!--*Left Card with Shopping Svg *-->
     <section>
+
         <div class="container">
             <div class="row pad-top">
-                <div class="col-lg-6 col-md-6 col-sm-12">
+
+                <div class="container header-title">
+                    <h2 class="text-center my-5">VISIT OUR WORLD</h2>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-12" id="side-card-down">
 
                     <!-- * 1st Card -->
-                    <div class="card mb-5 shadow rounded-3">
-                        <div class="card-body row">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="col-lg-4 col-md-4 col-sm-12">
-                                    <div class="w-75 mx-auto">
+                      <div class="card mb-5 shadow rounded-3">
+                          <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="side-card-img">
                                         <img src="./photos//side-card1.png" alt="side card 1" class="img-fluid">
                                     </div>
                                 </div>
-                                <div class="col-lg-8 col-md-8 col-sm-12 ms-3 overflow-hidden">
-                                <h4 class="card-title mb-3">Find The Perfect Fit</h4>
-                                <p class="card-text">Everybody is different, Which is way we offer styles for everybody.</p>
+                                <div class="col-lg-8 my-auto side-card-content">
+                                    <h4 class="card-title mb-3">Find The Perfect Fit</h4>
+                                    <p class="card-text">Everybody is different, Which is way we offer styles for everybody.</p>
                                 </div>
                             </div>
-                        </div>
+                          </div>
                       </div>
 
-                      <!--* 2nd Card -->
+                    <!-- *2nd Card -->
                       <div class="card mb-5 shadow rounded-3">
-                        <div class="card-body row">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="col-lg-4 col-md-4 col-sm-12">
-                                    <div class="w-75 mx-auto">
-                                        <img src="./photos//side-card3.png" alt="side card 1" class="img-fluid">
-                                    </div>
-                                </div>
-                                <div class="col-lg-8 col-md-8 col-sm-12 ms-3 overflow-hidden">
+                        <div class="card-body">
+                          <div class="row">
+                              <div class="col-lg-4">
+                                  <div class="side-card-img">
+                                    <img src="./photos//side-card3.png" alt="side card 1" class="img-fluid">
+                                  </div>
+                              </div>
+                              <div class="col-lg-8 my-auto side-card-content">
                                 <h4 class="card-title mb-3">Free Exchanges</h4>
                                 <p class="card-text">One of the many reasons you can shop with peace of mind.</p>
-                                </div>
-                            </div>
+                              </div>
+                          </div>
                         </div>
-                      </div>
+                    </div>
 
                       <!--* 3rd Card -->
-                      <div class="card shadow rounded-3">
-                        <div class="card-body row">
-                           <div class="d-flex justify-content-between align-items-center">
-                                <div class="col-lg-4 col-md-4 col-sm-12">
-                                    <div class="w-75 mx-auto"> 
-                                        <img src="./photos//side-card2.png" alt="side card 1" class="img-fluid">
-                                    </div>
-                                </div>
-                                <div class="col-lg-8 col-md-8 col-sm-12 ms-3 overflow-hidden">
+                      <div class="card mb-5 shadow rounded-3">
+                        <div class="card-body">
+                          <div class="row">
+                              <div class="col-lg-4">
+                                  <div class="side-card-img">
+                                    <img src="./photos//side-card2.png" alt="side card 1" class="img-fluid">
+                                  </div>
+                              </div>
+                              <div class="col-lg-8 my-auto side-card-content">
                                 <h4 class="card-title mb-3">Conact Our Seller</h4>
                                 <p class="card-text">There are hre help to you. That's quite literally what we pay them for.</p>
-                                </div>
-                           </div>
+                              </div>
+                          </div>
                         </div>
-                      </div>
+                    </div>
                 </div>
 
                 <!--* shopping SVG -->
                 <div class="col-lg-6 col-md-6 col-sm-12 my-auto">
-                    <div>
+                    <div class="shopping-svg">
                         <img src="./photos/shopping-pic.png" alt="shopping svg picture" class="img-fluid">
                     </div>
                 </div>
@@ -160,7 +169,7 @@
         <!--* shoes casual items-->
         <div class="row row-cols-1 row-cols-md-3 g-4">
 
-            <div class="col">
+            <div class="col-lg-4 col-md-6 col-sm-12">
                 <!--* 1st card shoe  -->
               <div class="card card-style shadow-lg h-100">
                 <div class="shoe-style">
@@ -183,7 +192,7 @@
               </div>
             </div>
 
-            <div class="col">
+            <div class="col-lg-4 col-md-6 col-sm-12">
                 <!--* 2nd card shoe  -->
               <div class="card card-style shadow-lg h-100">
                 <div class="shoe-style">
@@ -207,7 +216,7 @@
               </div>
             </div>
 
-            <div class="col">
+            <div class="col-lg-4 col-md-6 col-sm-12 mx-auto">
                 <!--* 3rd card shoe  -->
               <div class="card card-style shadow-lg h-100">
                 <div class="shoe-style">
@@ -244,7 +253,7 @@
         <!--* shoes formal items-->
         <div class="row row-cols-1 row-cols-md-3 g-4">
 
-            <div class="col">
+            <div class="col-lg-4 col-md-6 col-sm-12">
                 <!--* 1st card shoe  -->
               <div class="card card-style shadow-lg h-100">
                 <div class="shoe-style">
@@ -267,7 +276,7 @@
               </div>
             </div>
 
-            <div class="col">
+            <div class="col-lg-4 col-md-6 col-sm-12">
                 <!--* 2nd card shoe  -->
               <div class="card card-style shadow-lg h-100">
                 <div class="shoe-style">
@@ -290,7 +299,7 @@
               </div>
             </div>
 
-            <div class="col">
+            <div class="col-lg-4 col-md-6 col-sm-12 mx-auto">
                 <!--* 3rd card shoe  -->
                 <div class="card card-style shadow-lg h-100">
                     <div class="shoe-style">
@@ -320,18 +329,20 @@
     <!--* Discout offer -->
     <section>
         <div class="container">
-            <div class="offer row">
-                <div class="col-lg-8 d-flex align-items-center">
-                    <div class="content-offer">
-                        <h1 class="text-center text-white">Winter Sale Oneday Offer</h1>
-                        <h1 class="text-center text-info">Up To 55% Discout On Black Friday Offer</h1>
-                        <div class="text-center">
-                            <button class="btn btn-warning fw-bold text-white">Shop Now</button>
+            <div class="row">
+                <div class="offer">
+                    <div class="col-lg-8 col-md-12 col-sm-12 d-lg-flex align-items-center">
+                        <div class="content-offer">
+                            <h1 class="text-center text-white">Winter Sale Oneday Offer</h1>
+                            <h1 class="text-center text-info">Up To 55% Discout On Black Friday Offer</h1>
+                            <div class="text-center">
+                                <button class="btn btn-warning fw-bold text-white">Shop Now</button>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4">
-                    <img src="./photos/special-discount.jpg" alt="" class="img-fluid float-right">
+                    <div class="col-lg-4 col-md-12 col-sm-12 offer-img">
+                        <img src="./photos/special-discount.jpg" alt="" class="img-fluid ">
+                    </div>
                 </div>
             </div>
         </div>
@@ -375,7 +386,7 @@
     <section class="contaier-fluid bg-dark">
         <div class="container">
             <div class="row text-white custom-footer">
-                <div class="col-lg-3 col-md-3 col-sm-12">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <h4 class="text-center mb-4">About</h4>
                     <ul>
                         <li><a href="#"><i class="fa fa-arrows-alt me-3" aria-hidden="true"></i>Our Values</a></li>
@@ -385,7 +396,7 @@
                         <li><a href="#"><i class="fa fa-arrows-alt me-3" aria-hidden="true"></i>Careers</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-12">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <h4 class="text-center mb-4">Resources</h4>
                     <ul>
                         <li><a href="#"><i class="fa fa-arrows-alt me-3" aria-hidden="true"></i>My Account</a></li>
@@ -395,7 +406,7 @@
                         <li><a href="#"><i class="fa fa-arrows-alt me-3" aria-hidden="true"></i>Canadian Products</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-12">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <h4 class="text-center mb-4">Legal</h4>
                     <ul>
                         <li><a href="#"><i class="fa fa-arrows-alt me-3" aria-hidden="true"></i>Terms & Conditions</a></li>
@@ -405,7 +416,7 @@
                         <li><a href="#"><i class="fa fa-arrows-alt me-3" aria-hidden="true"></i>Rewards Terms of     Use</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-12">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <h4 class="text-center mb-4">Contact Us</h4>
                     <ul>
                         <li>
