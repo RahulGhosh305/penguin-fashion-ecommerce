@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Playfair Display', serif;
+}
+
+.pad-top{
+    padding-top: 100px;
+}
+
+.banner-content{
+    padding-top: 200px;
+    padding-left: 80px;
+}
+
+.banner-content h1 {
+    font-size: 60px;
+}
+
+h1 > span{
+    color: Tomato;
+}
